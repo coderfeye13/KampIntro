@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+
+namespace Dictionary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Dictionary <int, string> Ogrenci = new Dictionary <int, string>();
+            Ogrenci.Add(13, "Furkan Yılmaz");
+            Ogrenci.Add(7, "Taylan Akan");
+            Ogrenci.Add(17, "Necati Yusuf Çevik");
+            Ogrenci.Add(42, "Eda Eroğlu");
+            Ogrenci.Add(51, "Alperen Karanfil");
+            Ogrenci.Add(38, "Atakan Şahin");
+            Console.Write("Öğrenci No Giriniz:");
+            int No = int.Parse(Console.ReadLine());
+            try
+            {
+                Console.WriteLine(Ogrenci[No]);
+            }
+            catch
+            {
+                Console.WriteLine("Öğrenci Bulunamadı.");
+            }
+        }
+    }
+}
