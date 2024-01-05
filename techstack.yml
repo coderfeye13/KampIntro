@@ -1,7 +1,8 @@
 repo_name: coderfeye13/KampIntro
 report_id: cce77bc141b06ee8eb4abeda1fe785c5
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T09:01:06+00:00'
+timestamp: '2024-01-05T08:57:05+00:00'
 requested_by: coderfeye13
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/coderfeye13/KampIntro
   detection_source: Repo Metadata
 - name: ".NET Core"
   description: An Open Source, General-Purpose Development Platform Maintained by
@@ -28,8 +30,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: ClassMetotDemo/ClassMetotDemo.csproj
-  detection_source: OOP1/OOP1.csproj
+  detection_source_url: https://github.com/coderfeye13/KampIntro/blob/master/ClassMetotDemo/ClassMetotDemo.csproj
+  detection_source: ClassMetotDemo/ClassMetotDemo.csproj
   last_updated_by: Furkan Yılmaz
   last_updated_on: 2021-02-11 02:42:50.000000000 Z
 - name: ASP.NET Core
@@ -43,8 +45,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: ClassMetotDemo/ClassMetotDemo.csproj
-  detection_source: OOP1/OOP1.csproj
+  detection_source_url: https://github.com/coderfeye13/KampIntro/blob/master/ClassMetotDemo/ClassMetotDemo.csproj
+  detection_source: ClassMetotDemo/ClassMetotDemo.csproj
   last_updated_by: Furkan Yılmaz
   last_updated_on: 2021-02-11 02:42:50.000000000 Z
 - name: Git
@@ -55,6 +57,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/coderfeye13/KampIntro
   detection_source: Repo Metadata
 - name: Visual Studio
   description: State-of-the-art tools and services that you can use to create great
@@ -65,6 +68,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/coderfeye13/KampIntro/blob/master/KampIntro.sln
   detection_source: KampIntro.sln
   last_updated_by: Furkan Yılmaz
   last_updated_on: 2021-01-20 20:50:23.000000000 Z
